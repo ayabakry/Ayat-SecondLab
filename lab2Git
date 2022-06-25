@@ -1,0 +1,13 @@
+To delete the branch from github
+git push origin :test
+git push origin :dev
+To delete the branch from local
+git branch -d dev
+git branch -D test
+ To list tags locally:
+ git show Tag1
+ To delete Fron github:
+ git push origin --delete Tag1
+  To delete Fron local:
+  git tag -d Tag1
+
